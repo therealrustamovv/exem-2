@@ -1,0 +1,56 @@
+.nav {
+  padding: 26px 0px;
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @media (max-width: 320px) {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    @media (max-width: 850px) {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+    @media (max-width: 320px) {
+      display: none;
+    }
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #262626;
+    transition: all 500ms;
+    &:hover {
+      color: #33a0ff;
+    }
+    &.active {
+      color: #33a0ff;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262a;
+  }
+}

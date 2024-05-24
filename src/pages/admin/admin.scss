@@ -1,0 +1,29 @@
+.admin {
+  &__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  &__text {
+    width: 100%;
+    color: #000000;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  &__btn {
+    width: 338px;
+    height: 70px;
+    background-color: #33a0ff;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,59 @@
+.adidas {
+  padding: 162px 0px;
+  background-color: #40bfff;
+  margin-bottom: 100px;
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+  &__img {
+    max-width: 660px;
+    margin-top: -260px;
+    @media (max-width: 1200px) {
+      margin-top: 0;
+    }
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &__title {
+    max-width: 571px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    margin-bottom: 24px;
+    @media (max-width: 400px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  &__text {
+    max-width: 592px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    @media (max-width: 400px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &__btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 2px;
+  }
+}

@@ -1,0 +1,13 @@
+.empty {
+  padding: 30px;
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    @media (max-width: 560px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.contact {
+  padding-bottom: 134px;
+  &__info {
+    display: flex;
+    align-items: center;
+    height: 715px;
+    width: 100%;
+    margin-bottom: 125px;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 200px;
+    }
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 56px;
+    padding: 14px 0px;
+    &__text {
+      color: #c1c8ce;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  &__home {
+    color: #33a0ff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &__link {
+    color: #262626;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &__left {
+    width: 650px;
+    padding-top: 123px;
+    padding-left: 90px;
+    background-color: #40bfff;
+    height: 100%;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
+    @media (max-width: 480px) {
+      padding: 30px;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: lowercase;
+    margin-bottom: 56px;
+    @media (max-width: 430px) {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+  &__text {
+    max-width: 234px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 36px;
+  }
+  &__right {
+    padding-left: 30px;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 1px solid #969393;
+    @media (max-width: 1000px) {
+      border-bottom: 0px;
+    }
+    @media (max-width: 700px) {
+      width: 100%;
+      padding-left: 0px;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  &__label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373737;
+  }
+  &__input {
+    padding: 22px 20px;
+    border: 1px solid #969393;
+    border-radius: 0px 3px 3px 0px;
+    width: 510px;
+    &:focus {
+      border: 1px solid #33a0ff;
+    }
+    @media (max-width: 700px) {
+      width: 260px;
+    }
+  }
+  &__textarea {
+    height: 229px;
+    padding: 22px 20px;
+    border: 1px solid #969393;
+    border-radius: 0px 3px 3px 0px;
+    width: 510px;
+    &:focus {
+      border: 1px solid #33a0ff;
+    }
+    @media (max-width: 700px) {
+      max-width: 260px;
+    }
+  }
+}
